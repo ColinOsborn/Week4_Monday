@@ -1,4 +1,5 @@
 # Outline for Monday, October 5th
+# Colin
 - Review Wednesday's Exercises
 - Intro to jQuery
 
