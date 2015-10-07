@@ -4,7 +4,7 @@
 <title>jQuerying</title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="solutions.js"></script>
+<script type="text/javascript" src="jQuerying.js"></script>
 <link rel="stylesheet" type="text/css" href="jQuerying.css">
 </head>
 
@@ -20,14 +20,14 @@
 
 <p>3. <button class="changeColor">Click Here</button> to change the color of the third "li" element.</p>
 <p>4. <button id="removeLi">Click Here</button> to remove the second "li".</p>
-<p>5. When the forth item is clicked, add another beneath it.</p>
+<p>5. When the fourth item is clicked, add another beneath it.</p>
 <p>6. When the final item is clicked, change its font size to 40px and hide all other items.</p>
 <ul>
-  <li>I am a list item</li>
-  <li>Remove Me!!</li>
-  <li>Turn me #8A2BE2 !!</li>
-  <li>Place another 'li' below me</li>
-  <li>I have eaten my fellow items...</li>
+  <li class="hideThis">I am a list item</li>
+  <li class="hideThis">Remove Me!!</li>
+  <li class="hideThis">Turn me #8A2BE2 !!</li>
+  <li id="addme" class="hidethis">Place another 'li' below me</li>
+  <li id="makeBig">I have eaten my fellow items...</li>
 </ul>
 
 <p>7. When I'm clicked, make 20 more of me!</p>
