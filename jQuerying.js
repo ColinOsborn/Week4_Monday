@@ -25,17 +25,21 @@ $("#addme").click(function() {
 });
 $("#makeBig").click(function() {
   $(this).css("font-size", "40px");
-  $(".hideThis").hide();
+  $(".hideThis").hide(); ///.siblings().hide(); <---- Use this if not wanting to give an item class.
 });
 $(".cute").click(function() {
   var dogIamge = $(this);
-  while ($("img.cute").length < 20) {
-   $(this).clone().appendTo(".clones");
+  while ($("img.cute").length < 20) {   ///for(i=0; i<20; i++){
+   $(this).clone().appendTo(".clones");   //$(this).clone().insertAfter(this);
   }   //method chaining
 });
 $("body").dblclick(function() {
   $("#makeSquare").css("border-radius", "0");
 });
+$("#dontClick").click(function() {
+  (this).alert("ALERT!");
+});
+
 
 });/// this ends the entire document page function
 //# for id's ----- .for classes!!

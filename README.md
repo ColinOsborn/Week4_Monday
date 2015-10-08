@@ -1,5 +1,6 @@
 # Outline for Monday, October 5th
 # Colin
+# Colin Osborn
 - Review Wednesday's Exercises
 - Intro to jQuery
 
